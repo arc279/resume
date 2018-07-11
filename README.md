@@ -5,19 +5,19 @@
 現在は、ビッグデータ / 統計 / 機械学習 あたりを勉強中。
 
 * 技術ネタはだいたい [Qiita](https://qiita.com/arc279) に書いてます。
-* 昔趣味で自宅サーバ立ててたので(ubuntu14.04)一通りのことはできます。
+* 昔趣味で自宅サーバ立てていたので(ubuntu14.04)サーバ周りも一通りできます。
 * 英語は読めるけど日本語のほうが好き。
 
 ## 使用言語など
 
 |lang|term|主な用途|経験のあるFWなど|
 |--|--|--|--|
-|c/c++|累計５年ほど(専門学校の頃から)|コンシューマゲーム開発(c++03くらいの頃)|boost|
+|c/c++|累計５年ほど(専門学校時代含む)|コンシューマゲーム開発(c++03くらいの頃)|boost|
 |c#|累計1年ほど|スマホネイティブアプリ開発|unity|
 |java|累計2年ほど|ガラケーアプリ開発(1.4くらいの頃なので相当昔)|--|
 |php|累計3年ほど|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
-|python|累計2年ほど|統計、機械学習|sklearn,Django,Flask,Bottleなど|
-|ruby|累計3年ほど|webアプリ開発、運用など|rails,sinatraなど|
+|python|累計3年ほど|統計、機械学習|pandas,sklearn,Django,Flaskなど|
+|ruby|累計4年ほど|webアプリ開発、運用など|rails,sinatraなど|
 |javascript|その都度|必要に迫られて書く程度|VueJS,babel,webpackなど|
 |golang|1年ほど/趣味でも書く|--|goji|
 |haskell|趣味程度|--|--|
@@ -26,12 +26,6 @@
 |bash|いつも|おっさんのシェル芸|--|
 
 ## 開発環境など
-
-ちょっと前まで vimmer だったが、最近は vscode と半々くらい。
-
-### docker
-
-手放せない。
 
 ### AWS各種
 
@@ -55,8 +49,17 @@
 
 好き。
 
-* `kuromoji` 導入して日本語検索
-* `ingest-attachment` 導入してpdfからテキスト抽出して検索
+* `kuromoji` 日本語検索
+* `ingest-attachment` pdfからテキスト抽出して検索
+
+など。
+
+### その他
+
+* jupyter
+* docker
+* embulk
+* gradle
 
 など。
 
@@ -64,9 +67,47 @@
 
 ## 現在
 
-*2017/07* - *now*
+*2018/07* - *now*
 
 ビッグデータ、機械学習 界隈でフルタイムで従業中。
+
+## PKSHA Technology Inc.
+
+*2017/07* - *2018/06*
+
+### ビッグデータ集計案件
+
+数千万件規模。
+
+* ruby + rails5.1
+    * ジョブ管理システム kuroko2 統合
+    * twitter連携
+    * facebook連携
+* フロントエンド周り調整
+    * Vue.js@2
+* redshift
+* TreasureData
+* aws s3 配置時に自動で redshift まで投入される処理
+    * aws s3 + aws lambda + aws batch
+    * aws ecs(docker + embulk)
+    * aws kms
+
+### 自然言語処理案件
+
+* 有価証券報告書（xbrl, pdf)
+* 決算短信(pdf)
+
+を対象にテキストマイニング。
+
+* python
+    * 形態素解析(janome + neologd)
+    * 係り受け解析(CaboCha)
+    * tf-idf(sklearn)
+    * 感情極性(ネガポジ)判定
+* elasticsearch
+    * 全文検索(kuromoji)
+* apache pdfbox
+    * pdfからテキスト抽出(gradle + groovy)
 
 ## Automagi株式会社
 
