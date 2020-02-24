@@ -1,67 +1,101 @@
 # スキルシート
 
-出身はゲームプログラマ。  
-その後独立してフリーランス、主にソーシャルゲームの開発案件に従事。  
-現在は、ビッグデータ / 統計 / 機械学習 あたりを勉強中。
+* 出身はゲームプログラマ(3年ほど)
+* その後独立してフリーランス
+* 主にソーシャルゲームの開発案件に従事(5年ほど)
+* 機械学習界隈でビッグデータ扱いに従事(4年ほど)
+
+---
 
 * 技術ネタはだいたい [Qiita](https://qiita.com/arc279) に書いてます。
 * サーバ構築から運用も一通り対応可能。
-* 英語は読めます。
+* 英語読めます。
+
+---
 
 ## 使用言語など
 
 |lang|term|主な用途|経験のあるFWなど|
-|--|--|--|--|
-|c/c++|累計５年ほど(専門学校時代含む)|コンシューマゲーム開発(c++03くらいの頃)|boost|
-|c#|累計1年ほど|スマホネイティブアプリ開発|unity|
-|java|累計2年ほど|ガラケーアプリ開発(1.4くらいの頃なので相当昔)|--|
-|php|累計3年ほど|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
-|python|累計5年ほど|統計、機械学習|pandas,sklearn,Django,Flaskなど|
-|ruby|累計4年ほど|webアプリ開発、運用など|rails,sinatraなど|
+|---|---|---|---|
+|python|7年程度|統計、機械学習|pandas,sklearn,Django,Flaskなど|
+|ruby|累計4年程度|webアプリ開発、運用など|rails,sinatraなど|
+|php|累計3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
+|c/c++|累計５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
+|c#|累計1年程度|スマホネイティブアプリ開発|unity|
+|java|累計2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
 |javascript|その都度|必要に迫られて書く程度|VueJS,babel,webpackなど|
-|golang|1年ほど/趣味でも書く|--|goji|
+|golang|1年ほど + 趣味でも書く|--|goji|
 |haskell|趣味程度|--|--|
 |scala|趣味程度|--|play|
 |lua|ちょっと|--|--|
-|bash|いつも|おっさんのシェル芸|--|
+|bash|いつも|シェル芸|--|
 
 ## 開発環境など
 
 ### AWS各種
 
-* S3
-* EC2
-* ECS
 * Batch
-* Glue
-* Redshift
-* Lambda
-* ElastiCache
+* CloudFormation
 * Cognito
+* DynamoDB
+* EC2
+* ECR
+* ECS(+Fargate)
+* EMR
+* ElastiCache
+* ElasticSearch Service
+* Glue
+* Kinesis
+* Lambda
+* Redshift
+* Route 53
+* S3
 
 など。
 
+### GCP各種
+
+* BigQuery
+* GCS
+
+
 ### RDB
 
+* sqlite3
 * MySQL
 * PostgreSQL
 
 ### その他
 
-* Elasticsearch
-* jupyter
+* git
+* vagrant(VirtualBox)
 * docker
-* embulk
-* digdag
-* gradle
+    * Dockerfile で自前 image ビルドできる程度
+* ビッグデータ処理の知見（1e10件程度）
+* 統計の基本的な知識
+* 自然言語処理の基礎的な知見
+* 地理座標、測地系変換などの基礎的な知見
 
 など。
 
 # 職務経歴
 
-## 現在
+## 株式会社 R
+<!-- ## 株式会社リクルート住まいカンパニー -->
 
-ビッグデータ、機械学習 界隈でフルタイムで従業中。
+*2019/01* - *2020/03* (予定)
+
+* 機械学習界隈でビッグデータを扱うデータエンジニア
+    * 2千万件/日 程度
+* テックリード的な役割
+* レガシーシステムの python3 移行対応（python2.7 -> python3.7）
+* 自前 バッチ処理基盤保守
+* 自前 python ライブラリ作成 + 保守 + パッケージ化
+* pypi プライベートリポジトリ構築
+* リアルタイムログ基盤運用（AWS Kinesis + KCL for Python）
+* ログ監視基盤構築 （fluentd + Elasticsearch + Kibana）
+* 地理座標、測地系変換などの知見(groonga)
+
 
 ## D 株式会社
 <!-- ## データアーティスト株式会社 -->
