@@ -1,9 +1,11 @@
 # スキルシート
 
-* 出身はゲームプログラマ(3年ほど)
+LastUpdated: *2020/08/20*
+
+* 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
 * 主にソーシャルゲームの開発案件に従事(5年ほど)
-* 機械学習界隈でビッグデータ扱いに従事(4年ほど)
+* 機械学習界隈でビッグデータ扱いに従事(5年ほど)
 
 ---
 
@@ -17,7 +19,7 @@
 
 |lang|term|主な用途|経験のあるFWなど|
 |---|---|---|---|
-|python|7年程度|統計、機械学習|pandas,sklearn,Django,Flaskなど|
+|python|7年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
 |ruby|累計4年程度|webアプリ開発、運用など|rails,sinatraなど|
 |php|累計3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
 |c/c++|累計５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
@@ -48,6 +50,7 @@
 * Kinesis
 * Lambda
 * Redshift
+* Rekognition
 * Route 53
 * S3
 
@@ -56,6 +59,7 @@
 ### GCP各種
 
 * BigQuery
+* CloudVision
 * GCS
 
 
@@ -72,6 +76,7 @@
 * docker
     * Dockerfile で自前 image ビルドできる程度
 * ビッグデータ処理の知見（1e10件程度）
+* 画像、動画データの操作に関する知見
 * 統計の基本的な知識
 * 自然言語処理の基礎的な知見
 * 地理座標、測地系変換などの基礎的な知見
@@ -79,6 +84,45 @@
 など。
 
 # 職務経歴
+
+## 株式会社 G
+<!-- ## 株式会社ガラパゴス -->
+
+*2020/04* - *2020/09* (予定)
+
+### フルリモートワーク
+
+* Zoom
+* Google Meet
+* AWS
+* Slack
+* JIRA
+
+などを利用。
+
+---
+
+* python 3.8
+* 画像をクラウドAPI各種の分析にかける
+    * 最大10万件程度
+    * AWS Rekognition
+    * GCP CloudVision
+* 画像データ操作
+    * ImageMagick
+    * MobileNet v2 特徴量抽出
+        * keras + tensorflow v2
+    * 審美性スコア
+    * など
+* ベクトルの近傍検索
+    * [RGBを近傍検索して近い色名を探す](https://gist.github.com/arc279/11e4a65a4daec3fdb04b1c3d052cc5af)
+    * [HSV色空間に変換して近い色を探す](https://gist.github.com/arc279/a03f5443abd4916751369e4ce2c12947)
+    * など
+* 表形式データ整形
+    * 10万件程度
+    * 画像分析結果 json の統合など
+* 上記の処理のバッチ化
+    * docker image 化
+
 
 ## 株式会社 R
 <!-- ## 株式会社リクルート住まいカンパニー -->
