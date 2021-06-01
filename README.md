@@ -1,6 +1,6 @@
 # スキルシート
 
-LastUpdated: *2020/08/20*
+LastUpdated: *2021/06/01*
 
 * 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
@@ -19,7 +19,7 @@ LastUpdated: *2020/08/20*
 
 |lang|term|主な用途|経験のあるFWなど|
 |---|---|---|---|
-|python|7年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
+|python|8年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
 |ruby|累計4年程度|webアプリ開発、運用など|rails,sinatraなど|
 |php|累計3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
 |c/c++|累計５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
@@ -53,6 +53,7 @@ LastUpdated: *2020/08/20*
 * Rekognition
 * Route 53
 * S3
+* StepFunctions
 
 など。
 
@@ -74,29 +75,73 @@ LastUpdated: *2020/08/20*
 * git
 * vagrant(VirtualBox)
 * docker
-    * Dockerfile で自前 image ビルドできる程度
+* terraform
+* Serverless Framework
+
 * ビッグデータ処理の知見（1e10件程度）
-* 画像、動画データの操作に関する知見
-* 統計の基本的な知識
-* 自然言語処理の基礎的な知見
-* 地理座標、測地系変換などの基礎的な知見
+  * docker コンテナでの並列処理
+* 画像、動画データの操作
+* 統計の基礎知識
+* 自然言語処理の基礎知識
+* 地理座標、測地系変換などの基礎知識
 
 など。
 
 # 職務経歴
 
+## 株式会社 F
+<!-- ## 株式会社フリップデスク -->
+
+*2020/04* - *現在*
+
+* フルリモート
+* 週2稼働程度
+
+### Web接客ツールの足回りの整備
+
+* redash でダッシュボード作成
+* アクセス履歴の傾向からボット検出
+    * AWS Lambda + SQL
+
+など、mysql でクエリを書くことが多い。
+
+
+## S 株式会社
+<!-- ## ストックマーク株式会社 -->
+
+*2020/10* - *現在*
+
+* フルリモート
+* フルタイム
+* 自然言語処理系ベンチャー
+* 機械学習エンジニア
+
+### 機械学習バッチ処理の足回りを整備
+
+* AWS StepFunctions
+* AWS Lambda
+* AWS ECS + Fargate
+* AWS Batch + Fargate
+
+などを組み合わせて、最長2時間ほどかかっていた日次バッチ処理を、並列化して30分程度に短縮。
+
+### GPU で翻訳環境の整備
+
+* `transformer-align` 使用して日本語を英語へ翻訳
+* AWS Batch + EC2(GPUインスタンス) で実装
+
+
 ## 株式会社 G
 <!-- ## 株式会社ガラパゴス -->
 
-*2020/04* - *2020/09* (予定)
+*2020/04* - *2020/09*
 
-### フルリモートワーク
-
-* Zoom
-* Google Meet
-* AWS
-* Slack
-* JIRA
+* フルリモートワーク
+    * Zoom
+    * Google Meet
+    * AWS
+    * Slack
+    * JIRA
 
 などを利用。
 
