@@ -1,6 +1,6 @@
 # スキルシート
 
-LastUpdated: *2021/08/31*
+LastUpdated: *2022/08/18*
 
 * 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
@@ -20,15 +20,16 @@ LastUpdated: *2021/08/31*
 |lang|term|主な用途|経験のあるFWなど|
 |---|---|---|---|
 |python|8年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
-|ruby|累計4年程度|webアプリ開発、運用など|rails,sinatraなど|
-|php|累計3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
-|c/c++|累計５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
-|c#|累計1年程度|スマホネイティブアプリ開発|unity|
-|java|累計2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
-|javascript|その都度|必要に迫られて書く程度|VueJS,babel,webpackなど|
-|golang|1年ほど + 趣味でも書く|--|goji|
-|haskell|趣味程度|--|--|
-|scala|趣味程度|--|play|
+|ruby|4年程度|webアプリ開発、運用など|rails,sinatraなど|
+|javascript/typescript|4年程度|サーバサイド開発など|wasm,VueJS,babel,webpackなど|
+|php|3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
+|c/c++|５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
+|rust|少々|wasm 周りで必要になったため||
+|c#|1年程度|スマホネイティブアプリ開発|unity|
+|java|2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
+|golang|1年ほど|--|goji|
+|haskell|少々|--|--|
+|scala|少々|--|play|
 |lua|ちょっと|--|--|
 |bash|いつも|シェル芸|--|
 
@@ -36,20 +37,21 @@ LastUpdated: *2021/08/31*
 
 ### AWS各種
 
+* ApiGateway
 * Batch
 * CloudFormation
 * Cognito
 * DynamoDB
 * EC2
-* ECR
-* ECS(+Fargate)
+* ECR + ECS(+Fargate)
 * EMR
 * ElastiCache
-* ElasticSearch Service
+* Opensearch Service
 * Glue
 * Kinesis
 * Lambda
 * Redshift
+* Rds
 * Rekognition
 * Route 53
 * S3
@@ -89,24 +91,6 @@ LastUpdated: *2021/08/31*
 
 # 職務経歴
 
-## 株式会社 F
-<!-- ## 株式会社フリップデスク -->
-
-*2021/04* - *2021/09*
-
-* フルリモート
-* 週2稼働程度
-
-### Web接客ツールの足回りの整備
-
-* redash でダッシュボード作成
-* アクセス履歴の傾向からボット検出
-    * AWS Lambda + SQL
-* データ抽出バッチ
-    * AWS Lambda + AWS Batch
-
-など、mysql のクエリ作成、パフォーマンスチューニング。
-
 ---
 
 ## S 株式会社
@@ -118,6 +102,7 @@ LastUpdated: *2021/08/31*
 * フルタイム
 * 自然言語処理系ベンチャー
 * 機械学習エンジニア
+* データエンジニア
 
 ### 機械学習バッチ処理の足回りを整備
 
@@ -137,6 +122,53 @@ LastUpdated: *2021/08/31*
 
 機械学習サービスのフロントエンドの実装。
 
+### web サイトクローリング + 情報解析
+
+* 機械学習のデータソースにあたる webサイトをクローリング
+* 取得したデータから本文など必要な箇所を抽出
+
+など。
+
+---
+
+## 株式会社 S
+<!-- ## シンプルフォーム株式会社 -->
+
+*2022/01* - *2022/09*
+
+* フルリモート
+* 週2日稼働程度
+
+### AWS Lamnda + ApiGateway 環境で WebAPI 開発
+
+* serverless framework
+* python3.8, node14
+
+### AWS ECS Fargate 環境で検索 WebAPI 開発
+
+* AWS Opensearch 使用
+* python3.8
+
+---
+
+
+## 株式会社 F
+<!-- ## 株式会社フリップデスク -->
+
+*2021/04* - *2021/09*
+
+* フルリモート
+* 週2日稼働程度
+
+### Web接客ツールの足回りの整備
+
+* redash でダッシュボード作成
+* アクセス履歴の傾向からボット検出
+    * AWS Lambda + SQL
+* データ抽出バッチ
+    * AWS Lambda + AWS Batch
+
+など、mysql のクエリ作成、パフォーマンスチューニング。
 
 ---
 
@@ -181,7 +213,7 @@ LastUpdated: *2021/08/31*
 ## 株式会社 R
 <!-- ## 株式会社リクルート住まいカンパニー -->
 
-*2019/01* - *2020/03* (予定)
+*2019/01* - *2020/03* 
 
 * 機械学習界隈でビッグデータを扱うデータエンジニア
     * 2千万件/日 程度
