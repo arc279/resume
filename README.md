@@ -1,6 +1,6 @@
 # スキルシート
 
-LastUpdated: *2022/12/19*
+LastUpdated: *2023/08/02*
 
 * 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
@@ -19,17 +19,17 @@ LastUpdated: *2022/12/19*
 
 |lang|term|主な用途|経験のあるFWなど|
 |---|---|---|---|
-|python|8年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
-|ruby|4年程度|webアプリ開発、運用など|rails,sinatraなど|
-|javascript/typescript|4年程度|サーバサイド開発など|wasm,VueJS,babel,webpackなど|
+|python|10年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
+|ruby|10年程度|webアプリ開発、運用など|Rails,sinatraなど|
+|JavaScript/TypesSript|5年程度|サーバサイド開発など|wasm,VueJS,React など|
 |php|3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
 |c/c++|５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
 |rust|少々|wasm 周りで必要になったため||
 |c#|1年程度|スマホネイティブアプリ開発|unity|
-|java|2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
+|Java|2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
 |golang|1年ほど|--|goji|
 |haskell|少々|--|--|
-|scala|少々|--|play|
+|scala|少々|--|Play Framework|
 |lua|ちょっと|--|--|
 |bash|いつも|シェル芸|--|
 
@@ -51,7 +51,7 @@ LastUpdated: *2022/12/19*
 * Kinesis
 * Lambda
 * Redshift
-* Rds
+* RDS
 * Rekognition
 * Route 53
 * S3
@@ -131,7 +131,23 @@ LastUpdated: *2022/12/19*
 
 ---
 
-## F 株式会社
+## 株式会社 S
+<!-- ## 株式会社SOBAプロジェクト -->
+
+*2023/01* - *2023/09*
+
+* フルリモート
+* 週2日稼働程度
+
+### ruby + Rails + React のバックエンド開発
+
+* オンラインミーティングのSaaSのフロントエンド、バックエンドの保守
+* Rails + React 
+* 既存不具合の修正など
+
+---
+
+## 株式会社 F
 <!-- ## 株式会社ファンファーレ -->
 
 *2022/10* - *2023/01*
