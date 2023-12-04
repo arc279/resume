@@ -1,6 +1,6 @@
 # スキルシート
 
-LastUpdated: *2023/08/02*
+*LastUpdated: 2023/12/04*
 
 * 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
@@ -11,6 +11,7 @@ LastUpdated: *2023/08/02*
 
 * 技術ネタはだいたい [Qiita](https://qiita.com/arc279) に書いてます。
 * サーバ構築から運用も一通り対応可能。
+* クラウドは AWS が多め。
 * 最近はアーキテクチャの設計などが多いかも。
 
 ---
@@ -21,13 +22,13 @@ LastUpdated: *2023/08/02*
 |---|---|---|---|
 |python|10年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
 |ruby|10年程度|webアプリ開発、運用など|Rails,sinatraなど|
-|JavaScript/TypesSript|5年程度|サーバサイド開発など|wasm,VueJS,React など|
+|JavaScript/TypesSript|5年程度|サーバサイド開発など|VueJS,React,wasm など|
+|golang|2年程度|--|goji, gin|
 |php|3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
 |c/c++|５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
 |rust|少々|wasm 周りで必要になったため||
-|c#|1年程度|スマホネイティブアプリ開発|unity|
+|C#|1年程度|スマホネイティブアプリ開発|unity|
 |Java|2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
-|golang|1年ほど|--|goji|
 |haskell|少々|--|--|
 |scala|少々|--|Play Framework|
 |lua|ちょっと|--|--|
@@ -128,6 +129,22 @@ LastUpdated: *2023/08/02*
 * 取得したデータから本文など必要な箇所を抽出
 
 など。
+
+---
+
+## I 株式会社
+<!-- ## IGS - Institution for a Global Society株式会社 -->
+
+*2023/09* - *2023/12*
+
+* フルリモート
+* 週3日稼働程度
+
+### CKKS方式準同型暗号を用いた PoC 案件のバックエンド開発
+
+* golang
+* 30項目程度の float64 ベクトルの内積と和を暗号文空間で行う処理（lattigo）
+* インターフェースは json でやり取りするシンプルな REST API（gin）
 
 ---
 
