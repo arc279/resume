@@ -1,11 +1,11 @@
 # スキルシート
 
-*LastUpdated: 2023/12/04*
+*LastUpdated: 2024/03/21*
 
 * 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
 * 主にソーシャルゲームの開発案件に従事(5年ほど)
-* 機械学習界隈でビッグデータ扱いに従事(5年ほど)
+* 機械学習界隈でデータ関連の扱いに従事(7年〜)
 
 ---
 
@@ -23,14 +23,14 @@
 |python|10年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
 |ruby|10年程度|webアプリ開発、運用など|Rails,sinatraなど|
 |JavaScript/TypesSript|5年程度|サーバサイド開発など|VueJS,React,wasm など|
-|golang|2年程度|--|goji, gin|
+|golang|2年程度|webアプリ開発|goji, gin|
 |php|3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
 |c/c++|５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
 |rust|少々|wasm 周りで必要になったため||
 |C#|1年程度|スマホネイティブアプリ開発|unity|
 |Java|2年程度|ガラケーアプリ開発(1.5くらいの頃なのでかなり昔)|--|
-|haskell|少々|--|--|
 |scala|少々|--|Play Framework|
+|haskell|少々|--|--|
 |lua|ちょっと|--|--|
 |bash|いつも|シェル芸|--|
 
@@ -41,6 +41,7 @@
 * ApiGateway
 * Batch
 * CloudFormation
+* CodeBuild
 * Cognito
 * DynamoDB
 * EC2
@@ -73,15 +74,20 @@
 * MySQL
 * PostgreSQL
 
+### CI/CD
+
+* Github Actions
+* CircleCI
+
 ### その他
 
 * git
-* vagrant(VirtualBox)
 * docker
+* vagrant(VirtualBox)
 * terraform
 * Serverless Framework
 
-* ビッグデータ処理の知見（1e10件程度）
+* ビッグデータ処理の知見（10,000,000,000件程度）
   * docker コンテナでの並列処理
 * 画像、動画データの操作
 * 統計の基礎知識
@@ -127,6 +133,7 @@
 
 * 機械学習のデータソースにあたる webサイトをクローリング
 * 取得したデータから本文など必要な箇所を抽出
+* 日次バッチでアプリケーション側に連携するパイプライン
 
 など。
 
