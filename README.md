@@ -1,6 +1,6 @@
 # スキルシート
 
-*LastUpdated: 2024/03/21*
+*LastUpdated: 2024/06/11*
 
 * 出身はコンソールゲームプログラマ(3年ほど)
 * その後独立してフリーランス
@@ -22,7 +22,7 @@
 |---|---|---|---|
 |python|10年程度|統計、機械学習|keras,tensorflow,pandas,sklearn,Django,Flaskなど|
 |ruby|10年程度|webアプリ開発、運用など|Rails,sinatraなど|
-|JavaScript/TypesSript|5年程度|サーバサイド開発など|VueJS,React,wasm など|
+|JavaScript/TypesSript|6年程度|サーバサイド開発など|VueJS,React,wasm など|
 |golang|2年程度|webアプリ開発|goji, gin|
 |php|3年程度|ソーシャルゲームのサーバサイド開発|CodeIgniter,FuelPHPなど|
 |c/c++|５年程度|コンシューマゲーム開発(c++03くらいの頃)|boost|
@@ -136,6 +136,29 @@
 * 日次バッチでアプリケーション側に連携するパイプライン
 
 など。
+
+---
+
+## 株式会社 M
+<!-- ## 株式会社MINAMIKAZE -->
+
+*2024/04* - *2024/05*
+
+* フルリモート
+* python 講義
+  * 1コマ2時間 * 週３日
+  * python 基礎
+  * データ分析、機械学習の基礎項目
+
+---
+
+## P 株式会社
+<!-- ## PORTBACK株式会社 -->
+
+*2024/04* - *2024/05*
+
+* フルリモート
+* 位置情報アプリにコミュニティ、ゲーミング要素を導入する際の相談役
 
 ---
 
@@ -654,4 +677,3 @@ docomo/softbank/au向けケータイアプリ。
 ### 国内向けガラケーアプリ(docomo/softbank/au)
 
 DoJa/Mexa/Brew あたりをコンパチで何本か。
-
