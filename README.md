@@ -1,6 +1,6 @@
 # スキルシート
 
-_LastUpdated: 2024/12/20_
+_LastUpdated: 2025/02/26_
 
 - 出身はコンソールゲームプログラマ(3 年ほど)
 - その後独立してフリーランス
@@ -22,7 +22,7 @@ _LastUpdated: 2024/12/20_
 | --------------------- | --------- | ------------------------------------------------ | ------------------------------------------------- |
 | python                | 10 年程度 | 統計、機械学習、web アプリ開発                   | keras,tensorflow,pandas,sklearn,Django,Flask など |
 | ruby                  | 10 年程度 | web アプリ開発、運用など                         | Rails,sinatra など                                |
-| JavaScript/TypesSript | 6 年程度  | サーバサイド開発など                             | VueJS,React,wasm など                             |
+| JavaScript/TypesSript | 7 年程度  | フロントエンド、ユーティリティ開発               | VueJS,React,wasm など                             |
 | golang                | 2 年程度  | web アプリ開発                                   | goji, gin                                         |
 | php                   | 3 年程度  | ソーシャルゲームのサーバサイド開発               | CodeIgniter,FuelPHP など                          |
 | c/c++                 | ５年程度  | コンシューマゲーム開発(c++03 くらいの頃)         | boost                                             |
@@ -104,18 +104,28 @@ _LastUpdated: 2024/12/20_
 _2024/08_ - _現在_
 
 - フルタイム
-- 一部リモート
+- 一部リモート(週 2 日出社)
 
-### ビジネス向けコミュニケーション Web アプリケーション
+### ビジネス向けコミュニケーション Web アプリケーション開発支援
 
 - バックエンド開発
   - python + FastAPI
   - ruby + Rails
 - フロントエンド開発
   - TypeScript + Angular
-- インフラ周り
-  - AWS terraform
-  - mysql パフォーマンスチューニング
+
+### インフラ周り
+
+- AWS + terraform
+  - インフラコスト削減のための構成見直し
+    - 不要、余剰リソースを相乗りさせることでインスタンス数減
+    - 過剰なログ出力のためコストが掛かっていたのを削減
+    - fargate, lambda のアーキテクチャを arm64 に変更
+    - public ipv4 の除却
+    - など
+  - terraform フォルダ構成を整理
+- mysql パフォーマンスチューニング
+  - slowquery のボトルネック調査
 
 ---
 
@@ -147,13 +157,15 @@ _2020/10_ - _2024/07_
 
 ### rails + Vue.js の Web アプリケーション開発
 
-機械学習サービスのフロントエンドの実装。
+機械学習サービスの Web アプリケーション部分の実装。
 
 ### web サイトクローリング + 情報解析
 
 - 機械学習のデータソースにあたる web サイトをクローリング
+  - SQS + Lambda + docker + headless chrome
 - 取得したデータから本文など必要な箇所を抽出
-- 日次バッチでアプリケーション側に連携するパイプライン
+  - 日次バッチでアプリケーション側に連携するパイプライン構築
+  - AWS StepFunctions + ECS Fargate / AWS Batch
 
 など。
 
